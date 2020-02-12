@@ -9,4 +9,5 @@ urlpatterns = [
 
     path('matmul/', views.matmul),
     path('admin/', admin.site.urls),
+    path('houseapp', irisview.index),
 ]
